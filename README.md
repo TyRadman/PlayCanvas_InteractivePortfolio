@@ -1,8 +1,18 @@
 # Interactive Portfolio
 
+<p>
+  <img src="https://img.shields.io/badge/PlayCanvas-FF3300?logo=playcanvas&logoColor=white&style=for-the-badge" height="30">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="30">
+  <img src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" height="30">
+  <img src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="30">
+</p>
+
+## Overview
+
 This is an interactive portfolio built using [PlayCanvas](https://playcanvas.com). It provides a first-person experience where users can explore a virtual space and interact with objects that showcase projects I’ve worked on.
 All 3D models and assets in this project were created using Blender and reflect some of the objects I have in my own personal space.
 
+---
 
 ## Features
 
