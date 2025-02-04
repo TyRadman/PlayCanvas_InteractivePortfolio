@@ -10,50 +10,62 @@
 ## Overview
 
 This is an interactive portfolio built using [PlayCanvas](https://playcanvas.com). It provides a first-person experience where users can explore a virtual space and interact with objects that showcase projects I’ve worked on.
-All 3D models and assets in this project were created using Blender and reflect some of the objects I have in my own personal space.
+All 3D models and assets in this project were created using Blender and reflect some of the objects I have in my own personal space :)
 
-![Home Page](./Resources/InteractivePortfolio-StartMenu-1.gif)
+<p align="center">
+  <img src="./Resources/InteractivePortfolio-StartMenu-1.gif" width="75%" height="auto" alt="Loading GIF..." loading="lazy">
+</p>
+
+---
+
+## Links
+Link to portfolio: [link](https://tyradman.github.io/interactive-portfolio/)
 
 ---
 
 ## Features
 
 ### First-Person Navigation
-- Users can move around in a 3D environment using first-person controls.
+Users can move around in a 3D environment using first-person controls.
 
-![Home Page](./Resources/InteractivePortfolio-FirstPerson.gif)
+<p align="center">
+  <img src="./Resources/InteractivePortfolio-FirstPerson.gif" width="75%" height="auto" alt="Loading GIF..." loading="lazy">
+</p>
+
+---
 
 ### Interactive Objects
-- Each object represents a project and displays a UI text when interacted with, explaining what the object represents and what tools were used to develop it.
-- Interactions trigger actions such as sending a message to a Post API, which opens an HTML page that overlays the interactive portfolio or viewing a pdf file like my resume.
+Each object represents a project -or a set of small projects- and displays a UI text when interacted with, which prints the information about the project.
 
-![Home Page](./Resources/InteractivePortfolio-Interactive.gif)
+<p align="center">
+  <img src="./Resources/InteractivePortfolio-Interactive.gif" width="75%" height="auto" alt="Loading GIF..." loading="lazy">
+</p>
 
-### Project Representations
-- **Arcade Machines & Screens**:  
-  - Some objects, like arcade machines and screens, display videos related to the project they represent using an open source script develop by PlayCanvas community members.
-  - Clicking these objects provides detailed insights into the projects, but the logic of that is handled using an HTML page that isn't included in this repository.
+---
 
-- **Other Objects**:  
-  - Objects like files represent external resources, such as a resume, and link to external pages.
+### Projects HTML Display
 
-![Home Page](./Resources/InteractivePortfolio-HTMLConnect.gif)
+Clicking on the interactive objects provides more details about the projects by overlay the 3D environment with an HTML page. The logic of the HTML, CSS, and JS of the external pages isn't included in this repository.
+
+<p align="center">
+  <img src="./Resources/InteractivePortfolio-HTMLConnect.gif" width="75%" height="auto" alt="Loading GIF..." loading="lazy">
+</p>
+
+---
 
 ## How It Works
-1. Navigate the environment using standard first-person controls.
-2. Approach and interact with objects to learn about different projects.
-3. Click on objects to trigger Post API messages that open an HTML overlay or external pages for more detailed information.
+- The interactions in the experience is handled using PlayCanvas' API to control the character, Camera, rays (for looking at object) and more.
+- Displaying videos on textures is done using [this shader](https://developer.playcanvas.com/tutorials/video-textures/) provided by PlayCanvas on their website.
+- Interactions with clickable objects trigger actions like sending a message to a Post API, which opens the HTML page that overlays the interactive page or viewing a pdf file like my resume.
+- Clicking outside the bounds of the HTML overlay hides the page and returns control to the interactive experience.
 
 ## Technologies Used
 - **PlayCanvas**: The primary engine for the interactive environment.
 - **JavaScript**: For scripting object interactions and API communication.
 
 ## Future Improvements
-- Enhancements to object interactions and animations.
+- Add animations to interactive objects.
 - Additional projects and representations in the portfolio.
 
-## Acknowledgments
-This project is designed as a fun way to showcase my portfolio, combining interactivity with a visually engaging experience, which has always been the way I wanted my work to be viewed.
-If you want to try it for yourself, visit: https://tyradman.github.io/interactive-portfolio/
 
 ---
