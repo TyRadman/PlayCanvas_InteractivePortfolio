@@ -12,6 +12,8 @@
 This is an interactive portfolio built using [PlayCanvas](https://playcanvas.com). It provides a first-person experience where users can explore a virtual space and interact with objects that showcase projects I’ve worked on.
 All 3D models and assets in this project were created using Blender and reflect some of the objects I have in my own personal space.
 
+![Home Page](./Resources/InteractivePortfolio-StartMenu-1.gif)
+
 ---
 
 ## Features
@@ -19,9 +21,13 @@ All 3D models and assets in this project were created using Blender and reflect 
 ### First-Person Navigation
 - Users can move around in a 3D environment using first-person controls.
 
+![Home Page](./Resources/InteractivePortfolio-FirstPerson.gif)
+
 ### Interactive Objects
 - Each object represents a project and displays a UI text when interacted with, explaining what the object represents and what tools were used to develop it.
 - Interactions trigger actions such as sending a message to a Post API, which opens an HTML page that overlays the interactive portfolio or viewing a pdf file like my resume.
+
+![Home Page](./Resources/InteractivePortfolio-Interactive.gif)
 
 ### Project Representations
 - **Arcade Machines & Screens**:  
@@ -30,6 +36,8 @@ All 3D models and assets in this project were created using Blender and reflect 
 
 - **Other Objects**:  
   - Objects like files represent external resources, such as a resume, and link to external pages.
+
+![Home Page](./Resources/InteractivePortfolio-HTMLConnect.gif)
 
 ## How It Works
 1. Navigate the environment using standard first-person controls.
